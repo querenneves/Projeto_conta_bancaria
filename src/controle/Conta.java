@@ -1,9 +1,8 @@
 package controle;
 
 import interfaces.IConta;
-import modelo.Cliente;
-
 import javax.swing.*;
+import modelo.Cliente;
 
 public abstract class Conta implements IConta {
     private static int AGENCIA_PADRAO = 1;
